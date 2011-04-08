@@ -17,6 +17,17 @@
 		82DFC539134E9B6100774103 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82DFC537134E9B6100774103 /* InfoPlist.strings */; };
 		82DFC53C134E9B6100774103 /* NewRelicMonitorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 82DFC53B134E9B6100774103 /* NewRelicMonitorTests.h */; };
 		82DFC53E134E9B6100774103 /* NewRelicMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFC53D134E9B6100774103 /* NewRelicMonitorTests.m */; };
+		82DFC56C134ECF6600774103 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFC55B134ECF6600774103 /* ASIDataCompressor.m */; };
+		82DFC56D134ECF6600774103 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFC55D134ECF6600774103 /* ASIDataDecompressor.m */; };
+		82DFC56E134ECF6600774103 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFC55F134ECF6600774103 /* ASIDownloadCache.m */; };
+		82DFC56F134ECF6600774103 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFC561134ECF6600774103 /* ASIFormDataRequest.m */; };
+		82DFC570134ECF6600774103 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFC563134ECF6600774103 /* ASIHTTPRequest.m */; };
+		82DFC571134ECF6600774103 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFC567134ECF6600774103 /* ASIInputStream.m */; };
+		82DFC572134ECF6600774103 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFC569134ECF6600774103 /* ASINetworkQueue.m */; };
+		82DFC574134ED09A00774103 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DFC573134ED09A00774103 /* SystemConfiguration.framework */; };
+		82DFC576134ED0B900774103 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DFC575134ED0B900774103 /* libz.1.2.3.dylib */; };
+		82DFC578134ED0CA00774103 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DFC577134ED0CA00774103 /* CoreServices.framework */; };
+		82DFC5AE134EDD7700774103 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFC5AC134EDD7700774103 /* GDataXMLNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,29 @@
 		82DFC53A134E9B6100774103 /* NewRelicMonitorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewRelicMonitorTests-Prefix.pch"; sourceTree = "<group>"; };
 		82DFC53B134E9B6100774103 /* NewRelicMonitorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewRelicMonitorTests.h; sourceTree = "<group>"; };
 		82DFC53D134E9B6100774103 /* NewRelicMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewRelicMonitorTests.m; sourceTree = "<group>"; };
+		82DFC559134ECF6600774103 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		82DFC55A134ECF6600774103 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		82DFC55B134ECF6600774103 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		82DFC55C134ECF6600774103 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		82DFC55D134ECF6600774103 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		82DFC55E134ECF6600774103 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		82DFC55F134ECF6600774103 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		82DFC560134ECF6600774103 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		82DFC561134ECF6600774103 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		82DFC562134ECF6600774103 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		82DFC563134ECF6600774103 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		82DFC564134ECF6600774103 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		82DFC565134ECF6600774103 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		82DFC566134ECF6600774103 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		82DFC567134ECF6600774103 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		82DFC568134ECF6600774103 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		82DFC569134ECF6600774103 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		82DFC56A134ECF6600774103 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		82DFC573134ED09A00774103 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		82DFC575134ED0B900774103 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		82DFC577134ED0CA00774103 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		82DFC5AC134EDD7700774103 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		82DFC5AD134EDD7700774103 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DFC578134ED0CA00774103 /* CoreServices.framework in Frameworks */,
+				82DFC576134ED0B900774103 /* libz.1.2.3.dylib in Frameworks */,
+				82DFC574134ED09A00774103 /* SystemConfiguration.framework in Frameworks */,
 				82DFC514134E9B6100774103 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +111,9 @@
 		82DFC504134E9B6100774103 = {
 			isa = PBXGroup;
 			children = (
+				82DFC577134ED0CA00774103 /* CoreServices.framework */,
+				82DFC575134ED0B900774103 /* libz.1.2.3.dylib */,
+				82DFC573134ED09A00774103 /* SystemConfiguration.framework */,
 				82DFC519134E9B6100774103 /* NewRelicMonitor */,
 				82DFC534134E9B6100774103 /* NewRelicMonitorTests */,
 				82DFC512134E9B6100774103 /* Frameworks */,
@@ -112,6 +152,9 @@
 		82DFC519134E9B6100774103 /* NewRelicMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				82DFC5AC134EDD7700774103 /* GDataXMLNode.m */,
+				82DFC5AD134EDD7700774103 /* GDataXMLNode.h */,
+				82DFC555134ECF3E00774103 /* ASIHTTPRequest */,
 				82DFC525134E9B6100774103 /* NewRelicMonitorAppDelegate.h */,
 				82DFC526134E9B6100774103 /* NewRelicMonitorAppDelegate.m */,
 				82DFC528134E9B6100774103 /* MainMenu.xib */,
@@ -150,6 +193,31 @@
 				82DFC53A134E9B6100774103 /* NewRelicMonitorTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82DFC555134ECF3E00774103 /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				82DFC559134ECF6600774103 /* ASICacheDelegate.h */,
+				82DFC55A134ECF6600774103 /* ASIDataCompressor.h */,
+				82DFC55B134ECF6600774103 /* ASIDataCompressor.m */,
+				82DFC55C134ECF6600774103 /* ASIDataDecompressor.h */,
+				82DFC55D134ECF6600774103 /* ASIDataDecompressor.m */,
+				82DFC55E134ECF6600774103 /* ASIDownloadCache.h */,
+				82DFC55F134ECF6600774103 /* ASIDownloadCache.m */,
+				82DFC560134ECF6600774103 /* ASIFormDataRequest.h */,
+				82DFC561134ECF6600774103 /* ASIFormDataRequest.m */,
+				82DFC562134ECF6600774103 /* ASIHTTPRequest.h */,
+				82DFC563134ECF6600774103 /* ASIHTTPRequest.m */,
+				82DFC564134ECF6600774103 /* ASIHTTPRequestConfig.h */,
+				82DFC565134ECF6600774103 /* ASIHTTPRequestDelegate.h */,
+				82DFC566134ECF6600774103 /* ASIInputStream.h */,
+				82DFC567134ECF6600774103 /* ASIInputStream.m */,
+				82DFC568134ECF6600774103 /* ASINetworkQueue.h */,
+				82DFC569134ECF6600774103 /* ASINetworkQueue.m */,
+				82DFC56A134ECF6600774103 /* ASIProgressDelegate.h */,
+			);
+			name = ASIHTTPRequest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +327,14 @@
 			files = (
 				82DFC521134E9B6100774103 /* main.m in Sources */,
 				82DFC527134E9B6100774103 /* NewRelicMonitorAppDelegate.m in Sources */,
+				82DFC56C134ECF6600774103 /* ASIDataCompressor.m in Sources */,
+				82DFC56D134ECF6600774103 /* ASIDataDecompressor.m in Sources */,
+				82DFC56E134ECF6600774103 /* ASIDownloadCache.m in Sources */,
+				82DFC56F134ECF6600774103 /* ASIFormDataRequest.m in Sources */,
+				82DFC570134ECF6600774103 /* ASIHTTPRequest.m in Sources */,
+				82DFC571134ECF6600774103 /* ASIInputStream.m in Sources */,
+				82DFC572134ECF6600774103 /* ASINetworkQueue.m in Sources */,
+				82DFC5AE134EDD7700774103 /* GDataXMLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +406,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -344,6 +421,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -351,12 +429,15 @@
 		82DFC542134E9B6100774103 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewRelicMonitor/NewRelicMonitor-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "NewRelicMonitor/NewRelicMonitor-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -366,12 +447,15 @@
 		82DFC543134E9B6100774103 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewRelicMonitor/NewRelicMonitor-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "NewRelicMonitor/NewRelicMonitor-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -441,6 +525,7 @@
 				82DFC543134E9B6100774103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82DFC544134E9B6100774103 /* Build configuration list for PBXNativeTarget "NewRelicMonitorTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +534,7 @@
 				82DFC546134E9B6100774103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
