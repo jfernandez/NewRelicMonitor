@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82DFC514134E9B6100774103 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DFC513134E9B6100774103 /* Cocoa.framework */; };
+		82DFC51E134E9B6100774103 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82DFC51C134E9B6100774103 /* InfoPlist.strings */; };
+		82DFC521134E9B6100774103 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFC520134E9B6100774103 /* main.m */; };
+		82DFC524134E9B6100774103 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 82DFC522134E9B6100774103 /* Credits.rtf */; };
+		82DFC527134E9B6100774103 /* NewRelicMonitorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFC526134E9B6100774103 /* NewRelicMonitorAppDelegate.m */; };
+		82DFC52A134E9B6100774103 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82DFC528134E9B6100774103 /* MainMenu.xib */; };
+		82DFC531134E9B6100774103 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DFC513134E9B6100774103 /* Cocoa.framework */; };
+		82DFC539134E9B6100774103 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82DFC537134E9B6100774103 /* InfoPlist.strings */; };
+		82DFC53C134E9B6100774103 /* NewRelicMonitorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 82DFC53B134E9B6100774103 /* NewRelicMonitorTests.h */; };
+		82DFC53E134E9B6100774103 /* NewRelicMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFC53D134E9B6100774103 /* NewRelicMonitorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82DFC532134E9B6100774103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82DFC506134E9B6100774103 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82DFC50E134E9B6100774103;
+			remoteInfo = NewRelicMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82DFC50F134E9B6100774103 /* NewRelicMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewRelicMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DFC513134E9B6100774103 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		82DFC516134E9B6100774103 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		82DFC517134E9B6100774103 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		82DFC518134E9B6100774103 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82DFC51B134E9B6100774103 /* NewRelicMonitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewRelicMonitor-Info.plist"; sourceTree = "<group>"; };
+		82DFC51D134E9B6100774103 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82DFC51F134E9B6100774103 /* NewRelicMonitor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewRelicMonitor-Prefix.pch"; sourceTree = "<group>"; };
+		82DFC520134E9B6100774103 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82DFC523134E9B6100774103 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		82DFC525134E9B6100774103 /* NewRelicMonitorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewRelicMonitorAppDelegate.h; sourceTree = "<group>"; };
+		82DFC526134E9B6100774103 /* NewRelicMonitorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewRelicMonitorAppDelegate.m; sourceTree = "<group>"; };
+		82DFC529134E9B6100774103 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		82DFC530134E9B6100774103 /* NewRelicMonitorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewRelicMonitorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DFC536134E9B6100774103 /* NewRelicMonitorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewRelicMonitorTests-Info.plist"; sourceTree = "<group>"; };
+		82DFC538134E9B6100774103 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82DFC53A134E9B6100774103 /* NewRelicMonitorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewRelicMonitorTests-Prefix.pch"; sourceTree = "<group>"; };
+		82DFC53B134E9B6100774103 /* NewRelicMonitorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewRelicMonitorTests.h; sourceTree = "<group>"; };
+		82DFC53D134E9B6100774103 /* NewRelicMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewRelicMonitorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82DFC50C134E9B6100774103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DFC514134E9B6100774103 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DFC52C134E9B6100774103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DFC531134E9B6100774103 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82DFC504134E9B6100774103 = {
+			isa = PBXGroup;
+			children = (
+				82DFC519134E9B6100774103 /* NewRelicMonitor */,
+				82DFC534134E9B6100774103 /* NewRelicMonitorTests */,
+				82DFC512134E9B6100774103 /* Frameworks */,
+				82DFC510134E9B6100774103 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82DFC510134E9B6100774103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82DFC50F134E9B6100774103 /* NewRelicMonitor.app */,
+				82DFC530134E9B6100774103 /* NewRelicMonitorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82DFC512134E9B6100774103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82DFC513134E9B6100774103 /* Cocoa.framework */,
+				82DFC515134E9B6100774103 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82DFC515134E9B6100774103 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82DFC516134E9B6100774103 /* AppKit.framework */,
+				82DFC517134E9B6100774103 /* CoreData.framework */,
+				82DFC518134E9B6100774103 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		82DFC519134E9B6100774103 /* NewRelicMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				82DFC525134E9B6100774103 /* NewRelicMonitorAppDelegate.h */,
+				82DFC526134E9B6100774103 /* NewRelicMonitorAppDelegate.m */,
+				82DFC528134E9B6100774103 /* MainMenu.xib */,
+				82DFC51A134E9B6100774103 /* Supporting Files */,
+			);
+			path = NewRelicMonitor;
+			sourceTree = "<group>";
+		};
+		82DFC51A134E9B6100774103 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82DFC51B134E9B6100774103 /* NewRelicMonitor-Info.plist */,
+				82DFC51C134E9B6100774103 /* InfoPlist.strings */,
+				82DFC51F134E9B6100774103 /* NewRelicMonitor-Prefix.pch */,
+				82DFC520134E9B6100774103 /* main.m */,
+				82DFC522134E9B6100774103 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82DFC534134E9B6100774103 /* NewRelicMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				82DFC53B134E9B6100774103 /* NewRelicMonitorTests.h */,
+				82DFC53D134E9B6100774103 /* NewRelicMonitorTests.m */,
+				82DFC535134E9B6100774103 /* Supporting Files */,
+			);
+			path = NewRelicMonitorTests;
+			sourceTree = "<group>";
+		};
+		82DFC535134E9B6100774103 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82DFC536134E9B6100774103 /* NewRelicMonitorTests-Info.plist */,
+				82DFC537134E9B6100774103 /* InfoPlist.strings */,
+				82DFC53A134E9B6100774103 /* NewRelicMonitorTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82DFC50E134E9B6100774103 /* NewRelicMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DFC541134E9B6100774103 /* Build configuration list for PBXNativeTarget "NewRelicMonitor" */;
+			buildPhases = (
+				82DFC50B134E9B6100774103 /* Sources */,
+				82DFC50C134E9B6100774103 /* Frameworks */,
+				82DFC50D134E9B6100774103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewRelicMonitor;
+			productName = NewRelicMonitor;
+			productReference = 82DFC50F134E9B6100774103 /* NewRelicMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82DFC52F134E9B6100774103 /* NewRelicMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DFC544134E9B6100774103 /* Build configuration list for PBXNativeTarget "NewRelicMonitorTests" */;
+			buildPhases = (
+				82DFC52B134E9B6100774103 /* Sources */,
+				82DFC52C134E9B6100774103 /* Frameworks */,
+				82DFC52D134E9B6100774103 /* Resources */,
+				82DFC52E134E9B6100774103 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82DFC533134E9B6100774103 /* PBXTargetDependency */,
+			);
+			name = NewRelicMonitorTests;
+			productName = NewRelicMonitorTests;
+			productReference = 82DFC530134E9B6100774103 /* NewRelicMonitorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82DFC506134E9B6100774103 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 82DFC509134E9B6100774103 /* Build configuration list for PBXProject "NewRelicMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82DFC504134E9B6100774103;
+			productRefGroup = 82DFC510134E9B6100774103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82DFC50E134E9B6100774103 /* NewRelicMonitor */,
+				82DFC52F134E9B6100774103 /* NewRelicMonitorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82DFC50D134E9B6100774103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DFC51E134E9B6100774103 /* InfoPlist.strings in Resources */,
+				82DFC524134E9B6100774103 /* Credits.rtf in Resources */,
+				82DFC52A134E9B6100774103 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DFC52D134E9B6100774103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DFC539134E9B6100774103 /* InfoPlist.strings in Resources */,
+				82DFC53C134E9B6100774103 /* NewRelicMonitorTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82DFC52E134E9B6100774103 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82DFC50B134E9B6100774103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DFC521134E9B6100774103 /* main.m in Sources */,
+				82DFC527134E9B6100774103 /* NewRelicMonitorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DFC52B134E9B6100774103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DFC53E134E9B6100774103 /* NewRelicMonitorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82DFC533134E9B6100774103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82DFC50E134E9B6100774103 /* NewRelicMonitor */;
+			targetProxy = 82DFC532134E9B6100774103 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82DFC51C134E9B6100774103 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DFC51D134E9B6100774103 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82DFC522134E9B6100774103 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DFC523134E9B6100774103 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		82DFC528134E9B6100774103 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DFC529134E9B6100774103 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		82DFC537134E9B6100774103 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DFC538134E9B6100774103 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82DFC53F134E9B6100774103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82DFC540134E9B6100774103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82DFC542134E9B6100774103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewRelicMonitor/NewRelicMonitor-Prefix.pch";
+				INFOPLIST_FILE = "NewRelicMonitor/NewRelicMonitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82DFC543134E9B6100774103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewRelicMonitor/NewRelicMonitor-Prefix.pch";
+				INFOPLIST_FILE = "NewRelicMonitor/NewRelicMonitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		82DFC545134E9B6100774103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewRelicMonitor.app/Contents/MacOS/NewRelicMonitor";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewRelicMonitorTests/NewRelicMonitorTests-Prefix.pch";
+				INFOPLIST_FILE = "NewRelicMonitorTests/NewRelicMonitorTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		82DFC546134E9B6100774103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewRelicMonitor.app/Contents/MacOS/NewRelicMonitor";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewRelicMonitorTests/NewRelicMonitorTests-Prefix.pch";
+				INFOPLIST_FILE = "NewRelicMonitorTests/NewRelicMonitorTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82DFC509134E9B6100774103 /* Build configuration list for PBXProject "NewRelicMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DFC53F134E9B6100774103 /* Debug */,
+				82DFC540134E9B6100774103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DFC541134E9B6100774103 /* Build configuration list for PBXNativeTarget "NewRelicMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DFC542134E9B6100774103 /* Debug */,
+				82DFC543134E9B6100774103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82DFC544134E9B6100774103 /* Build configuration list for PBXNativeTarget "NewRelicMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DFC545134E9B6100774103 /* Debug */,
+				82DFC546134E9B6100774103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82DFC506134E9B6100774103 /* Project object */;
+}
