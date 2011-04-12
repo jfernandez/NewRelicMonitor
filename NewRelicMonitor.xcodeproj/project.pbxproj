@@ -27,7 +27,6 @@
 		82DFC574134ED09A00774103 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DFC573134ED09A00774103 /* SystemConfiguration.framework */; };
 		82DFC576134ED0B900774103 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DFC575134ED0B900774103 /* libz.1.2.3.dylib */; };
 		82DFC578134ED0CA00774103 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DFC577134ED0CA00774103 /* CoreServices.framework */; };
-		82DFC5AE134EDD7700774103 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DFC5AC134EDD7700774103 /* GDataXMLNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,8 +80,6 @@
 		82DFC573134ED09A00774103 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		82DFC575134ED0B900774103 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
 		82DFC577134ED0CA00774103 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
-		82DFC5AC134EDD7700774103 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
-		82DFC5AD134EDD7700774103 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,8 +149,6 @@
 		82DFC519134E9B6100774103 /* NewRelicMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				82DFC5AC134EDD7700774103 /* GDataXMLNode.m */,
-				82DFC5AD134EDD7700774103 /* GDataXMLNode.h */,
 				82DFC555134ECF3E00774103 /* ASIHTTPRequest */,
 				82DFC525134E9B6100774103 /* NewRelicMonitorAppDelegate.h */,
 				82DFC526134E9B6100774103 /* NewRelicMonitorAppDelegate.m */,
@@ -334,7 +329,6 @@
 				82DFC570134ECF6600774103 /* ASIHTTPRequest.m in Sources */,
 				82DFC571134ECF6600774103 /* ASIInputStream.m in Sources */,
 				82DFC572134ECF6600774103 /* ASINetworkQueue.m in Sources */,
-				82DFC5AE134EDD7700774103 /* GDataXMLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,9 +429,7 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewRelicMonitor/NewRelicMonitor-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					/usr/include/libxml2,
-				);
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "NewRelicMonitor/NewRelicMonitor-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -453,9 +445,7 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewRelicMonitor/NewRelicMonitor-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					/usr/include/libxml2,
-				);
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "NewRelicMonitor/NewRelicMonitor-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
